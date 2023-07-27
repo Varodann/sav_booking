@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class AssigmentsRepository extends JPARepository<Assigments, Integer> {
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class AssigmentsRepository extends JpaRepository<Assigments, Integer> {
 }

@@ -1,4 +1,7 @@
 package com.example.demo.repository;
 
-public class CarRepository extends JPARepository<Car, Integer> {
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class CarRepository extends JpaRepository<Car, Integer> {
 }
